@@ -19,9 +19,9 @@
         <module name="atcrowdfunding06-common-reverses" />
         <module name="atcrowdfunding03-admin-component" />
         <module name="atcrowdfunding10-member-mysql-provider" />
-        <module name="atcrowdfunding12-member-authenticationserver-consumer" />
-        <module name="atcrowdfunding05-common-utils" />
         <module name="atcrowdfunding04-admin-entity" />
+        <module name="atcrowdfunding05-common-utils" />
+        <module name="atcrowdfunding12-member-authenticationserver-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,9 +30,9 @@
       <module name="atcrowdfunding03-admin-component" target="1.8" />
       <module name="atcrowdfunding04-admin-entity" target="1.8" />
       <module name="atcrowdfunding05-common-util" target="1.8" />
-      <module name="atcrowdfunding05-common-utils" target="1.8" />
+      <module name="atcrowdfunding05-common-utils" target="1.5" />
       <module name="atcrowdfunding06-common-reverse" target="1.8" />
-      <module name="atcrowdfunding06-common-reverses" target="1.8" />
+      <module name="atcrowdfunding06-common-reverses" target="1.5" />
       <module name="atcrowdfunding07-member-parent" target="1.8" />
       <module name="atcrowdfunding08-member-eureka" target="1.8" />
       <module name="atcrowdfunding09-member-entity" target="1.8" />

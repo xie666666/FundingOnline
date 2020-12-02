@@ -5,7 +5,7 @@
       <configuration />
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.8" useProjectSettings="false">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
         <compilerSettings />
         <compilerArguments>
           <option name="jvmTarget" value="1.8" />
@@ -21,6 +21,13 @@
             <ArgumentParseErrors />
           </option>
         </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping />
+        <naming-strategy-map />
       </configuration>
     </facet>
   </component>
@@ -72,7 +79,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:jconsole:1.8.0">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_202/lib/jconsole.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Program Files/Java/jdk1.8.0_261/lib/jconsole.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -81,7 +88,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.alibaba:tools:1.8.0">
         <CLASSES>
-          <root url="jar://C:/Program Files/Java/jdk1.8.0_202/lib/tools.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../../Program Files/Java/jdk1.8.0_261/lib/tools.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
